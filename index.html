@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Geppetto Business</title>
+	<link rel="icon" type="image/x-icon" href="./lib/img/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="./lib/css/reset.css">
+	<link rel="stylesheet" href="./lib/faw/css/all.css">
+	<link rel="stylesheet" href="./lib/css/index.css">
+	<link rel="stylesheet" href="./lib/css/banner.css">
+	<link rel="stylesheet" href="./lib/css/catalogo.css">
+	<link rel="stylesheet" href="./lib/css/footer.css">	
+	<!-- JS -->
+	<script src="./lib/js/alinicio.js" defer></script>
+	<script src="./lib/js/dbsfam.js" defer></script>
+	<script src="./lib/js/dbscat.js" defer></script>
+</head>
+<body>
+	<header class="cab">
+		<a class="cab_logo" href="#" >
+			<img class="cab_logo_img" src="./lib/img/logo.png" alt="AluraGeek logo">     			
+     	</a>
+
+      <div class="cab_qry">
+      	<input class="cab_qry_campo" type="search"  placeholder=" ¿Qué deseas buscar?" name="search">
+			<button class="cab_qry_btn" id="btn_qry">
+				<img class="cab_qry_img" src="./lib/img/lupa.png" alt="Icono Lupa">
+			</button>
+         <!-- <i class="fa-brands fa-searchengin"></i> -->
+      </div>
+
+		<div class="cab_login">
+			<a class="cab_login_lnk" href="#login">Login</a>
+	      <!-- <img class="cab_login_img" src="./lib/img/lupa.png" alt="Icono Lupa"> -->
+      </div>
+	</header>
+
+	<main>
+		<div class="vacio"> </div>
+		<div class="banner">
+			<div class="banner_descripcion">
+				<h1>Ofertas Mayo 2022</h1>
+				<p>Artìculos con precio especial</p>
+				<a href="./lib/pag/ofertas.html">Ver ofertas</a>
+			</div>
+		</div>
+
+		<!-- Aqui se construye el contenido con el catalogo Json -->
+		<div class="catalogo" id="lst_fam"> </div>
+
+		<!-- Parte inferior  -->
+		<section class="abajo">
+			<!-- Izquierda  -->			
+			<div class="izq">
+				<img src="./lib/img/logo.png" alt="AluraGeek logo">
+			</div>
+			<!-- Centro  -->
+			<div class="med">
+				<ul>
+					<li>Quienes somos</li>
+					<li>Politicas de privacidad</li>
+					<li>Programa de fidelidad</li>
+					<li>Nuestras tiendas</li>
+					<li>Quiero ser franquiciado</li>
+					<li>Anuncie aqui</li>
+
+				</ul>
+			</div>
+			<!-- Derecha  -->
+			<div class="der">
+				<h1>Hable con nosotros</h1>
+	        	<form action="https://formsubmit.co/solrac.gt@gmail.com" method="post">
+	        		<!-- 
+	            <label for="nombreapellido">Nombre completo</label> 
+	            <label for="correoelectronico">Correo Electrónico</label>
+	            <label for="asunto">Asunto</label>
+	            <label for="mensaje">Mensaje</label>
+	         	-->
+	            <input class="input-padron" id="nombreapellido" name="Nombre" type="text"  required placeholder="   Nombre">
+
+	            <input class="input-padron" id="correoelectronico" name="Email" type="email"  required placeholder="   Correo electronico email@dominio.com">
+	            <input class="input-padron" id="asunto" name="Asunto" type="tel" required placeholder="   Asunto">
+	            <textarea class="input-padron" id="mensaje" name="Mensaje" cols="50" rows="5" required placeholder="  Escribe tu mensaje"></textarea>
+
+					<input class="enviar" type="submit" value="Enviar Formulario"> 
+	            <!-- si no se le indica value pone solamente enviar en el idioma de la pagina-->
+	        	</form>
+			</div>
+		</section>
+	</main>
+	<img onclick="topFunction()" id="myBtn" title="Volver inicio" src="./lib/img/alinicio.png" alt="Volver al inicio">
+	<footer>
+		<p> Desarrollado por Carlos Raùl Lòpez®</p>
+		<p>2022</p>
+	</footer>
+</body>
+</html>
+
+<!-- html comment 
+<iframe src="./lib/htm/footer.html" frameborder="0"></iframe>		
+-->

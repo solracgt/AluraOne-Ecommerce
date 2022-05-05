@@ -1,0 +1,220 @@
+{
+   "catalogo": [
+      {
+        "categoria": "supher",
+        "articulos": [
+            {
+               "id": 1,
+               "imagen": "sh001",
+               "nombre": "Capitan America I",
+               "descripcion": "Figura de acciòn en pedestal, mide 12 cms. se puede separar de la base",
+               "precio": "US$ 15.00"
+            },
+            {
+               "id": 2,
+               "imagen": "sh002",
+               "nombre": "Capitan America II",
+               "descripcion": "Figura de acciòn, mide 15 cms.",
+               "precio": "US$ 20.00"
+            },
+            {
+               "id": 3,
+               "imagen": "sh003",
+               "nombre": "Doctor Strange",
+               "descripcion": "Figura de acciòn, mide 15 cms.",
+               "precio": "US$ 20.00"
+            },
+            {
+               "id": 4,
+               "imagen": "sh004",
+               "nombre": "Death Pool",
+               "descripcion": "Figura de acciòn, mide 15 cms, las espadas se pueden separar",
+               "precio": "US$ 20.00"
+            },
+            {
+               "id": 5,
+               "imagen": "sh005",
+               "nombre": "Spider Man",
+               "descripcion": "Figura de acciòn, mide 15 cms. con el traje de industrias Stark",
+               "precio": "US$ 20.00"
+            },
+            {
+               "id": 6,
+               "imagen": "sh006",
+               "nombre": "Venom",
+               "descripcion": "Figura de 15 cms. con base, no se desmonta",
+               "precio": "US$ 20.00"
+            },
+            {
+               "id": 7,
+               "imagen": "sh007",
+               "nombre": "Capitana Marvel",
+               "descripcion": "Figura de 15 cms., flexible, cabello natural",
+               "precio": "US$ 20.00"
+            },
+            {
+               "id": 8,
+               "imagen": "sh008",
+               "nombre": "Iron Man I",
+               "descripcion": "Figura de 15 cms. con base, no desmontable",
+               "precio": "US$ 20.00"
+            },
+            {
+               "id": 9,
+               "imagen": "sh009",
+               "nombre": "Hulk",
+               "descripcion": "Figura rigida de 15 cms.",
+               "precio": "US$ 20.00"
+            },
+            {
+               "id": 10,
+               "imagen": "sh010",
+               "nombre": "Set Marvel",
+               "descripcion": "Este set contiene 6 figuras decorativas de 15 cms. cada una, rigidas",
+               "precio": "US$ 125.00"
+            },
+         ]
+      },            
+      {
+        "categoria": "starwar",
+        "articulos": [
+            {
+                "id": 1,
+                "imagen": "sw001",
+                "nombre": "Taza Trooper",
+                "descripcion": "Excelente para mantener tu bebida calientita",
+                "precio": "US$ 10.00"
+            },
+            {
+                "id": 2,
+                "imagen": "sw002",
+                "nombre": "Pisapapeles",
+                "descripcion": "Manten en orden tus papeles con estas cabecitas de Darth Vader",
+                "precio": "US$ 15.00"
+            },
+            {
+                "id": 3,
+                "imagen": "sw003",
+                "nombre": "Yoda Adulto",
+                "descripcion": "Figura de accion de Yoda en pie",
+                "precio": "US$ 30.00"
+            },
+            {
+                "id": 4,
+                "imagen": "sw004",
+                "nombre": "Trooper",
+                "descripcion": "Figura de acciòn Trooper",
+                "precio": "US$ 30.00"
+            },
+            {
+                "id": 5,
+                "imagen": "sw005",
+                "nombre": "Baby Yoda",
+                "descripcion": "Figura de accion Baby Yoda",
+                "precio": "US$ 30.00"
+            },
+            {
+                "id": 6,
+                "imagen": "sw006",
+                "nombre": "Darth Vader",
+                "descripcion": "Figura de acciòn de Darth Vader en pie",
+                "precio": "US$ 45.00"
+            }
+        ]
+      },
+      {
+        "categoria": "consolas",
+        "articulos": [
+            {
+                "id": 1,
+                "imagen": "con001",
+                "nombre": "Control X-box",
+                "descripcion": "Control ergonomico color blanco",
+                "precio": "US$ 15.00"
+            },
+            {
+                "id": 2,
+                "imagen": "con002",
+                "nombre": "Consola Blue-X",
+                "descripcion": "Control ergonomico color blanco",
+                "precio": "US$ 125.00"
+            },
+            {
+                "id": 3,
+                "imagen": "con003",
+                "nombre": "Consola Nintendo",
+                "descripcion": "Consola retro, modelo clasico, incluye 1 juego",
+                "precio": "US$ 90.00"
+            },
+            {
+                "id": 4,
+                "imagen": "con004",
+                "nombre": "Controles Nintendo Switch",
+                "descripcion": "Modernos controles, varios colores",
+                "precio": "US$ 20.00"
+            },
+            {
+                "id": 5,
+                "imagen": "con005",
+                "nombre": "Consola X-box One",
+                "descripcion": "Emociones al maximo con esta moderna consola",
+                "precio": "US$ 125.00"
+            },
+            {
+                "id": 6,
+                "imagen": "con006",
+                "nombre": "Game Boy retro",
+                "descripcion": "Para muchas horas de diversion donde quieras",
+                "precio": "US$ 25.00"
+            }
+        ]
+      },
+      {
+        "categoria": "varios",
+        "articulos": [
+            {
+                "id": 1,
+                "imagen": "var001",
+                "nombre": "Sonic",
+                "descripcion": "Figura plastica de tu amigo veloz",
+                "precio": "US$ 35.00"
+            },
+            {
+                "id": 2,
+                "imagen": "var002",
+                "nombre": "Camiseta Atari",
+                "descripcion": "Elaborada en fino algodon, color blanco",
+                "precio": "US$ 20.00"
+            },
+            {
+                "id": 3,
+                "imagen": "var003",
+                "nombre": "Camiseta Nintendo",
+                "descripcion": "Elaborada en fino algodon, color gris",
+                "precio": "US$ 20.00"
+            },
+            {
+                "id": 4,
+                "imagen": "var004",
+                "nombre": "Radio Despertador",
+                "descripcion": "Diseño digital retro, color rosa",
+                "precio": "US$ 30.00"
+            },
+            {
+                "id": 5,
+                "imagen": "var005",
+                "nombre": "Anteojos Realidad Virtual",
+                "descripcion": "Disfruta tus videos en 3D al maximo, ajusta a gran variedad de moviles",
+                "precio": "US$ 25.00"
+            },
+            {
+                "id": 6,
+                "imagen": "var006",
+                "nombre": "Pikachu",
+                "descripcion": "Para regalarle a quien te roba el corazón",
+                "precio": "US$ 20.00"
+            }
+        ]
+      }
+   ]
+}

@@ -1,0 +1,66 @@
+/* Configuracion del banner */
+.banner {
+	background: center url(../img/bandera.png) no-repeat;
+	border-radius: 20px;
+	color: var(--color-letra2);
+	height: 360px;
+	display: flex;	
+	flex-direction: column;
+	justify-content: center;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   padding-top: 4rem;
+   width: 98%;
+
+	/*
+
+	height: 352px;	
+	align-content: center;
+	
+	align-items: center;
+	justify-items: center;
+	left: 0px;
+	text-align: left;
+
+	*/
+}
+
+.banner_descripcion {
+	margin-left: 2em;
+	/*
+
+	padding-top: 8rem;
+	width: 98%;
+	height: 100%;
+	*/
+}
+
+.banner_descripcion h1 {
+	font-size: 2.5em;
+	font-weight: 600;
+}
+
+.banner_descripcion p {
+	opacity: 0.8;
+	margin: 2em 0;
+}
+
+.banner_descripcion a {
+	border: 2px solid rgba(255,255,255,0.8);
+	border-radius: 50px;
+	color: var(--color-letra2);
+	font-size: 0.9em;
+	opacity: 0.8;
+	padding: 1em 3.5em;
+	text-decoration: none;
+	transition: all .25s;
+}
+
+.banner_descripcion a:hover {
+	background: greenyellow;;
+	color: var(--color-letra4);
+}
+
+@media only screen and (min-width : 285px) and (max-width : 480px) {
+
+}

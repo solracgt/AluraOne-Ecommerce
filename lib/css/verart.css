@@ -1,0 +1,161 @@
+.cab_volver {
+   padding-top: 20px;
+   padding-left: 2rem;
+   width: 98%;
+}
+
+.cab_volver_lnk {
+   background-color: var(--color-back2);
+   border: 1px solid blueviolet;
+   border-radius: 10px;
+   color: brown;
+   padding: 0 15px;
+   text-decoration: none;
+   font-weight: 600;
+}
+
+.cnt_tit {
+   align-items: center;
+   color: var(--color-letra1);
+   display: flex;
+   font-size: 1.5rem;
+   font-weight: 600;
+   justify-content: center;
+   margin-left: 2rem;
+   padding-bottom: 1rem;
+   padding-top: 1rem;   
+}
+
+.cnt_ficha {
+   display: grid;
+   /* Definicion lineas y columnas */
+   grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+   grid-auto-columns: 12rem;
+   grid-auto-rows: 20rem;
+   grid-auto-flow: column dense;
+   /* Separacion lineas y columnas */
+   gap: .5rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   padding: .3rem;
+}
+
+.cnt_pic {
+   border: solid 1px blueviolet;
+   border-radius: 10px;
+   display: flex;
+   /*height: 20rem; */
+   justify-content: center;
+   padding: 1em;
+}
+
+.artImg {
+   border-radius: 30px;
+   height: 90%;
+   object-fit: contain; /* Mantiene la relacion de la imagen */
+}
+
+.cnt_des {
+   border: solid 1px blueviolet;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   /*height: 20rem; */
+   align-items: center;
+   justify-content: center;
+   padding: 1em;   
+}
+
+.artDes {
+   font-size: 1.5rem;   
+   margin-bottom: .4rem;
+   padding: .3em;
+   text-align: justify;
+}
+
+.artCod {
+   color: var(--color-codigo);
+   font-size: 1rem;
+   font-weight: 700;   
+}
+
+.artPre {
+   color: var(--color-precio);
+   font-size: 2.5rem;
+   font-weight: 700;
+   margin-bottom: 1rem;
+}
+
+.hermanos {
+   display: grid;
+   /* Definicion lineas y columnas */
+   grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+   grid-auto-columns: 12rem;
+   grid-auto-rows: 18rem;
+   grid-auto-flow: row dense;
+   /* Separacion lineas y columnas */
+   gap: .5rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   padding: .3rem;
+}
+
+.card_art {
+   align-content: center;
+   align-items: center;
+   border: solid 1px blueviolet;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   transition: 0.5s ease-in-out;
+}
+
+.card_art:hover {
+   background-color: var(--color-back-item-o);   
+   /*filter: opacity(.9);*/
+   transform: scale(1.1);
+}
+
+/*
+.card_lnk {
+   height: 65%;
+   width: 90%;
+}
+*/
+
+.card_img {
+   border-radius: 10px;
+   height: 11em;
+   object-fit: contain;
+   padding: .3em;
+   width: 11em;
+}
+
+.iDescri {
+   font-size: .8rem;   
+   margin-bottom: .4rem;
+   padding: .3em;
+   text-align: justify;
+}
+
+.iCodigo {
+   color: var(--color-codigo);
+   font-size: .7rem;
+   font-weight: 700;   
+}
+
+.iPrecio {
+   color: var(--color-precio);
+   font-size: 1.1rem;
+   font-weight: 700;
+   margin-bottom: .4rem;
+}
+
+.card_art h2 {
+   color: var(--color-letra3);
+   font-size: 1.1rem;
+   font-weight: 500;
+   margin-bottom: .4rem;
+}

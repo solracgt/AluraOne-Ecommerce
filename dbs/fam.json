@@ -1,0 +1,28 @@
+{
+   "familia": [
+      {
+         "id": 1,
+         "famnom": "Super Heroes",
+         "famcod": "supher",
+         "famimg": "./lib/img/sh/"
+      },
+      {
+         "id": 2,
+         "famnom": "Star War",
+         "famcod": "starwar",
+         "famimg": "./lib/img/sw/"
+      },
+      {
+         "id": 3,
+         "famnom": "Consolas",
+         "famcod": "consolas",
+         "famimg": "./lib/img/cj/"
+      },
+      {
+         "id": 4,
+         "famnom": "Variedad",
+         "famcod": "varios",
+         "famimg": "./lib/img/av/"
+      }      
+   ]
+}

@@ -1,0 +1,202 @@
+:root {
+   --ancho: 1200px;
+  --color-letra1: #124f88;
+  --color-letra2: white;
+  --color-letra3: rgb(170,0,0) ;
+  --color-letra4: rgb(0,0,0) ;
+
+  --color-codigo: rgb(0,0,160);
+  --color-precio: rgb(0,183,0) ;
+
+  --color-back1: rgb(230,254,230);
+  --color-back2: rgb(175,253,170);
+  --color-back-body: rgb(201,223,224);
+  --color-back-cat:  #EAF2FD;
+  --color-back-item: rgb(193,225,222);
+  --color-back-item-o: rgb(177,216,182);
+  font-size: 16px;
+}
+
+/* Cambiar todos los px por vh (view height) y vw (view width */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Boton volver al inicio */
+#myBtn {
+   display: none;   /* Oculto por defecto */
+   position: fixed; /* Posición fija / pegajosa*/
+   bottom: 20px;    /* Coloque el botón en la parte inferior de la página. */
+   right: 25px;     /* Coloca el botón 30px de la derecha. */
+   z-index: 99;     /* Asegúrese de que no se superponga */
+   cursor: pointer; /* Añadir un puntero del ratón en el hover */
+   border-radius:250px;
+   width: 40px;
+}
+
+#myBtn:hover {
+   box-shadow: 2px 2px 2px 2px;
+}
+
+
+body {
+   background-color: var(--color-back-body);
+	font-family: 'Lato', sans-serif;	
+   /*margin-top: 70px; */
+   width: 98vw;
+}
+
+/* Cabecera */
+header {
+   height: 60px;
+   margin-top: .5rem;
+}
+.vacio{
+   height: 70px;
+}
+.cab {
+   align-items: center;
+   background-color: var(--color-back-cat);
+   border: 1px solid blueviolet;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: row;
+   /*height: 60px;*/
+   margin-left: 1rem;
+   margin-right: 1rem;
+   position: fixed; /* Con esto se queda fijo el menu en la parte superior */
+   /*top: .3rem; */
+   width: 98%;   
+}
+
+.cab_logo {
+   width: 15%;
+}
+
+.cab_logo_img {
+   height: 95%;
+   width: 95%;
+}
+
+/* Busqueda */
+
+.cab_qry {
+   align-items: center;
+   justify-items: center;
+   display: flex;
+   height: 50px;
+   margin: 0 auto;
+   width: 65%;
+}
+
+.cab_qry_campo {
+   background-color: var(--color-back2);
+   border: none;
+   font-size: .95rem;
+   height: 40px;
+   margin-left: 10px;
+   width: 350px;
+}
+.cab_qry_campo:focus {
+   outline: none;
+}
+
+.cab_qry_btn {
+   background-color: var(--color-back2);
+   border: none;
+   height: 40px;
+   width: 40px;
+}
+
+.cab_qry_img {
+   height: 35px;
+   width: 35px;
+}
+
+.cab_login {
+   display: flex;
+   width: 15%;
+}
+
+.cab_login_lnk {
+   background-color: var(--color-back2);
+   background-image: linear-gradient(to top left, rgba(0,0,0,0.2), rgba(0,0,0,0.2) 30%, rgba(0,0,0,0));
+   box-shadow: inset 2px 2px 3px rgba(255,255,255,0.6), inset -2px -2px 3px rgba(0,0,0,0.6);
+   border: 0;
+   border-radius: 10px;
+   color: var(--color-letra1);
+   font-size: 1.2rem;
+   line-height: 2;
+   text-align: center;
+   text-decoration: none;
+   width: 100px;
+}
+
+/*
+.cab_login_lnk:hover {
+   color: wheat;
+   background-color: rgba(8, 192, 75, 0.736);
+}
+.cab_login_lnk:active {
+   box-shadow: inset -2px -2px 3px rgba(255,255,255,0.6), inset 2px 2px 3px rgba(0,0,0,0.6);
+}
+*/
+
+.cab_login_img {
+   height: 40px;
+   width: 40px;
+}
+
+main {
+   width: 100%;
+}
+
+
+/* Media query for Mobile devices*/
+
+@media only screen and (min-width : 285px) and (max-width : 480px) {
+   #myBtn {
+      right: 15px;
+   }
+   .cab {
+      height: 3rem;
+      width: 95%;
+   }
+   .cab_logo {
+      height: 2rem;
+      padding-left: .5rem;
+   }
+   .cab_logo_img {
+      width: 100%
+   }
+   .cab_qry {
+      height: 2.5rem;
+   }
+   .cab_qry_campo {
+      font-size: .7rem;
+      height: 1.75rem;
+   }
+   .cab_qry_btn {
+      height: 2rem;
+   }
+   .cab_login {
+      padding-right: .5rem;
+   }
+   .cab_login_lnk {
+      font-size: .8rem;
+      line-height: 1.25rem;
+      width: 75px;
+   }
+}
+
+/* Media Query for Tablets */
+
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width:1025px) {
+}

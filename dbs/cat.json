@@ -1,0 +1,364 @@
+{
+   "catalogo": [
+      {
+         "familia": "supher",
+         "articulo": [
+            {
+               "id": 1,
+               "codigo": "capame01",
+               "imagen": "sh001",
+               "nombre": "Capitan America I",
+               "descri": "Figura de acciòn en pedestal, mide 12 cms. se puede separar de la base",
+               "precio": "US$ 15.00",
+               "oferta": true,
+               "preofe": "US$ 12.00"
+            },
+            {
+               "id": 2,
+               "codigo": "capame02",
+               "imagen": "sh002",
+               "nombre": "Capitan America II",
+               "descri": "Figura de acciòn, mide 15 cms.",
+               "precio": "US$ 20.00",
+               "oferta": false,
+               "preofe": "US$ 20.00"
+            },
+            {
+               "id": 3,
+               "codigo": "drstr01",
+               "imagen": "sh003",
+               "nombre": "Doctor Strange",
+               "descri": "Figura de acciòn, mide 15 cms.",
+               "precio": "US$ 20.00",
+               "oferta": false,
+               "preofe": "US$ 20.00"
+            },
+            {
+               "id": 4,
+               "codigo": "detpol01",
+               "imagen": "sh004",
+               "nombre": "Death Pool",
+               "descri": "Figura de acciòn, mide 15 cms, las espadas se pueden separar",
+               "precio": "US$ 20.00",
+               "oferta": false,
+               "preofe": "US$ 20.00"
+            },
+            {
+               "id": 5,
+               "codigo": "spiman01",
+               "imagen": "sh005",
+               "nombre": "Spider Man",
+               "descri": "Figura de acciòn, mide 15 cms. con el traje de industrias Stark",
+               "precio": "US$ 20.00",
+               "oferta": false,
+               "preofe": "US$ 20.00"
+            },
+            {
+               "id": 6,
+               "codigo": "venom01",
+               "imagen": "sh006",
+               "nombre": "Venom",
+               "descri": "Figura de 15 cms. con base, no se desmonta",
+               "precio": "US$ 20.00",
+               "oferta": false,
+               "preofe": "US$ 20.00"
+            },
+            {
+               "id": 7,
+               "codigo": "capmar01",
+               "imagen": "sh007",
+               "nombre": "Capitana Marvel",
+               "descri": "Figura de 15 cms., flexible, cabello natural",
+               "precio": "US$ 20.00",
+               "oferta": true,
+               "preofe": "US$ 18.00"
+            },
+            {
+               "id": 8,
+               "codigo": "iroman01",
+               "imagen": "sh008",
+               "nombre": "Iron Man I",
+               "descri": "Figura de 15 cms. con base, no desmontable",
+               "precio": "US$ 20.00",
+               "oferta": false,
+               "preofe": "US$ 20.00"
+            },
+            {
+               "id": 9,
+               "codigo": "hulk01",
+               "imagen": "sh009",
+               "nombre": "Hulk",
+               "descri": "Figura rigida de 15 cms.",
+               "precio": "US$ 20.00",
+               "oferta": false,
+               "preofe": "US$ 20.00"
+            },
+            {
+               "id": 10,
+               "codigo": "setmar01",
+               "imagen": "sh010",
+               "nombre": "Set Marvel",
+               "descri": "Este set contiene 6 figuras decorativas de 15 cms. cada una, rigidas",
+               "precio": "US$ 125.00",
+               "oferta": true,
+               "preofe": "US$ 115.00"
+            }            
+         ]
+      },
+      {
+         "familia": "starwar",
+         "articulo": [
+            {
+               "id": 1,
+               "codigo": "sw001",
+               "imagen": "sw001",
+               "nombre": "Tasas",
+               "descri": "Excelentes para mantener tu bebida calientita",
+               "precio": "US$ 10.00",
+               "oferta": true,
+               "preofe": "US$ 8.00"
+            },
+            {
+               "id": 2,
+               "codigo": "sw002",
+               "imagen": "sw002",
+               "nombre": "Pisapapeles",
+               "descri": "Manten en orden tus papeles con estas cabecitas de Lego",
+               "precio": "US$ 15.00",
+               "oferta": false,
+               "preofe": "US$ 15.00"
+            },
+            {
+               "id": 3,
+               "codigo": "sw003",
+               "imagen": "sw003",
+               "nombre": "Yoda Adulto",
+               "descri": "Figura de accion de Yoda en pie",
+               "precio": "US$ 30.00",
+               "oferta": false,
+               "preofe": "US$ 30.00"
+            },
+            {
+                "id": 4,
+                "codigo": "sw004",
+                "imagen": "sw004",
+                "nombre": "Trooper",
+                "descri": "Figura de acciòn Trooper",
+                "precio": "US$ 30.00",
+                "oferta": false,
+                "preofe": "US$ 30.00"
+            },
+            {
+                "id": 5,
+                "codigo": "sw005",
+                "imagen": "sw005",
+                "nombre": "Baby Yoda",
+                "descri": "Figuras de accion Baby Yoda",
+                "precio": "US$ 30.00",
+                "oferta": true,
+                "preofe": "US$ 25.00"
+            },
+            {
+                "id": 6,
+                "codigo": "sw006",
+                "imagen": "sw006",
+                "nombre": "Darth Vader",
+                "descri": "Figura de acciòn de Darth Vader en pie. 40 Aniversario",
+                "precio": "US$ 45.00",
+                "oferta": false,
+                "preofe": "US$ 45.00"
+            },            
+            {
+                "id": 7,
+                "codigo": "sw007",
+                "imagen": "sw007",
+                "nombre": "Playera",
+                "descri": "Tamaños: L-M-S, Colores: Blanco-Negro-Azul",
+                "precio": "US$ 35.00",
+                "oferta": true,
+                "preofe": "US$ 30.00"
+            }
+         ]
+      },
+      {
+         "familia": "consolas",
+         "articulo": [
+            {
+                "id": 1,
+                "codigo": "con001",
+                "imagen": "cj001",
+                "nombre": "Atari",
+                "descri": "Consola Retro con el juego PONG",
+                "precio": "US$ 150.00",
+                "oferta": false,
+                "preofe": "US$ 150.00"
+            },
+            {
+                "id": 2,
+                "codigo": "con002",
+                "imagen": "cj002",
+                "nombre": "Sega",
+                "descri": "Consola Clasica",
+                "precio": "US$ 125.00",
+                "oferta": true,
+                "preofe": "US$ 120.00"
+            },
+            {
+                "id": 3,
+                "codigo": "con003",
+                "imagen": "cj003",
+                "nombre": "Super Ninendo",
+                "descri": "Incluye dos controles",
+                "precio": "US$ 130.00",
+                "oferta": false,
+                "preofe": "US$ 130.00"
+            },
+            {
+                "id": 4,
+                "codigo": "con004",
+                "imagen": "cj004",
+                "nombre": "PlayStation",
+                "descri": "Color gris, incluye dos controles",
+                "precio": "US$ 120.00",
+                "oferta": false,
+                "preofe": "US$ 120.00"
+            },
+            {
+                "id": 5,
+                "codigo": "con005",
+                "imagen": "cj005",
+                "nombre": "X-Box",
+                "descri": "Emociones al maximo con esta moderna consola",
+                "precio": "US$ 125.00",
+                "oferta": false,
+                "preofe": "US$ 125.00"
+            },
+            {
+                "id": 6,
+                "codigo": "con006",
+                "imagen": "cj006",
+                "nombre": "X-Box 360",
+                "descri": "Emociones al maximo con esta moderna consola",
+                "precio": "US$ 135.00",
+                "oferta": true,
+                "preofe": "US$ 120.00"
+            },
+            {
+                "id": 7,
+                "codigo": "con007",
+                "imagen": "cj007",
+                "nombre": "PlayStation III",
+                "descri": "Emociones al maximo con esta moderna consola",
+                "precio": "US$ 135.00",
+                "oferta": false,
+                "preofe": "US$ 135.00"
+            },
+            {
+                "id": 8,
+                "codigo": "con008",
+                "imagen": "cj008",
+                "nombre": "Nintendo Wii",
+                "descri": "Todos los accesorios incluidos",
+                "precio": "US$ 135.00",
+                "oferta": false,
+                "preofe": "US$ 135.00"
+            },
+            {
+                "id": 9,
+                "codigo": "con009",
+                "imagen": "cj009",
+                "nombre": "Game Boy retro",
+                "descri": "Para muchas horas de diversion donde quieras",
+                "precio": "US$ 75.00",
+                "oferta": true,
+                "preofe": "US$ 70.00"
+            },
+            {
+                "id": 10,
+                "codigo": "con010",
+                "imagen": "cj010",
+                "nombre": "Controles",
+                "descri": "Variedad de controles para tu consola favorita",
+                "precio": "Desde US$ 15.00",
+                "oferta": false,
+                "preofe": "US$ 15.00"
+            }            
+        ]
+      },
+      {
+         "familia": "varios",
+         "articulo": [
+            {
+                "id": 1,
+                "codigo": "var001",
+                "imagen": "var001",
+                "nombre": "Sonic",
+                "descri": "Figura plastica de tu amigo veloz",
+                "precio": "US$ 35.00",
+                "oferta": false,
+                "preofe": "US$ 35.00"
+            },
+            {
+                "id": 2,
+                "codigo": "var002",
+                "imagen": "var002",
+                "nombre": "Playera Atari",
+                "descri": "Elaborada en fino algodon, color blanco",
+                "precio": "US$ 20.00",
+                "oferta": true,
+                "preofe": "US$ 15.00"
+            },
+            {
+                "id": 3,
+                "codigo": "var003",
+                "imagen": "var003",
+                "nombre": "Playera Nintendo",
+                "descri": "Elaborada en fino algodon, colores: Blanco-Negro-Azul",
+                "precio": "US$ 20.00",
+                "oferta": false,
+                "preofe": "US$ 20.00"
+            },
+            {
+                "id": 4,
+                "codigo": "var004",
+                "imagen": "var004",
+                "nombre": "Reloj",
+                "descri": "Diseño Pac-man, digital, color amarillo",
+                "precio": "US$ 30.00",
+                "oferta": false,
+                "preofe": "US$ 30.00"
+            },
+            {
+                "id": 5,
+                "codigo": "var005",
+                "imagen": "var005",
+                "nombre": "Anteojos Realidad Virtual",
+                "descri": "Disfruta tus videos en 3D al maximo, ajusta a gran variedad de moviles",
+                "precio": "US$ 25.00",
+                "oferta": false,
+                "preofe": "US$ 25.00"
+            },
+            {
+                "id": 6,
+                "codigo": "var006",
+                "imagen": "var006",
+                "nombre": "Pikachu",
+                "descri": "Para regalarle a quien te roba el corazón, incluye pokebola",
+                "precio": "US$ 20.00",
+                "oferta": true,
+                "preofe": "US$ 16.00"
+            },            
+            {
+                "id": 7,
+                "codigo": "var007",
+                "imagen": "var007",
+                "nombre": "Playera Sonic",
+                "descri": "Elaborada en fino algodon, colores: Blanco-Negro-Azul",
+                "precio": "US$ 25.00",
+                "oferta": true,
+                "preofe": "US$ 20.00"
+            }
+        ]
+      }
+   ]
+}
